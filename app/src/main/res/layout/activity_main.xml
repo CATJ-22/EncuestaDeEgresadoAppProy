@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/iconouniversidad"
+        />
+    <EditText
+        android:id="@+id/edtCedula"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/iconocedula"
+        android:hint="Cedula"
+        />
+    <EditText
+        android:id="@+id/edtContrasena"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Contraseña"
+        />
+    <Button
+        android:background="@drawable/diseno_boton_mainactivity"
+        android:id="@+id/btnCapturarInicioSesion"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Ingresar"
+        android:textColor="@color/colorWhite"
+        android:onClick="irPantallaEnviarEncuestas"
+        />
+    <TextView
+        android:id="@+id/txtRecuperarContrasena"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar Contraseña"
+        />
+
+
+
+</LinearLayout>

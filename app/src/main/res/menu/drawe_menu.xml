@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:title="Encuestas">
+        <menu>
+            <item
+                android:id="@+id/itmEstudiante"
+                android:icon="@drawable/iconomenu"
+                android:title="Estudiante">
+
+            </item>
+            <item
+                android:id="@+id/itmProfesor"
+                android:icon="@drawable/iconomenu"
+                android:title="Profesor"/>
+            <item
+                android:id="@+id/itmEgresado"
+                android:icon="@drawable/iconomenu"
+                android:title="Egresado"/>
+            <item
+                android:id="@+id/itmEmpresario"
+                android:icon="@drawable/iconomenu"
+                android:title="Empresario"/>
+
+
+        </menu>
+
+    </item>
+
+
+</menu>
